@@ -1,0 +1,74 @@
+[
+  {
+    "id": "server-room",
+    "roomName": "Server Room",
+    "roomPath": "server-room",
+    "unsolvedInstruction": "Bankarna av sus­ande servrar lyser svagt i mörkret. Ett UV-skanneruttag pulserar på det centrala racket – det verkar vänta på något.",
+    "solvedInstruction": "UV-ljuset avslöjade en dold åtkomstkod etsad in i serverchassit. Du fotograferar den noggrant.",
+    "unsolvedImage": "/images/server-room-unsolved.jpg",
+    "solvedImage": "/images/server-room-solved.jpg",
+    "hint": "UV-ljus kan avslöja saker som är osynliga för blotta ögat – kolla serverchassit noga.",
+    "itemToSolve": "uv-light",
+    "itemToAdd": "access-code"
+  },
+  {
+    "id": "security-room",
+    "roomName": "Security Room",
+    "roomPath": "security-room",
+    "unsolvedInstruction": "En vaktterminal lyser ensam i rummet. Åtkomstpanelen kräver en giltig kod för att öppnas.",
+    "solvedInstruction": "Koden fungerade. En säkerhetsnyckelkort faller ut ur en lucka i konsolen med ett metalliskt klick.",
+    "unsolvedImage": "/images/security-room-unsolved.jpg",
+    "solvedImage": "/images/security-room-solved.jpg",
+    "hint": "Terminalen ber om en numerisk kod. Du borde ha hittat en tidigare.",
+    "itemToSolve": "access-code",
+    "itemToAdd": "security-keycard"
+  },
+  {
+    "id": "archives",
+    "roomName": "Archives",
+    "roomPath": "archives",
+    "unsolvedInstruction": "Rader av låsta arkivskåp sträcker sig mot taket. Ett magnetlås förseglar den hemligstämplade sektionen.",
+    "solvedInstruction": "Nyckelkortet öppnade den begränsade sektionen. En underhållsnyckel faller ut ur en gammal mapp märkt NEXUS-MAINT.",
+    "unsolvedImage": "/images/archives-unsolved.jpg",
+    "solvedImage": "/images/archives-solved.jpg",
+    "hint": "Den hemligstämplade sektionen kräver behörighet. Du behöver något som bevisar din identitet.",
+    "itemToSolve": "security-keycard",
+    "itemToAdd": "maintenance-key"
+  },
+  {
+    "id": "reactor-room",
+    "roomName": "Reactor Room",
+    "roomPath": "reactor-room",
+    "unsolvedInstruction": "Rör och ventiler täcker väggarna. En låst underhållslucka döljer anläggningens styrkontroller.",
+    "solvedInstruction": "Underhållsnyckeln öppnade luckan. Bakom den sitter en lapp med admin-inloggningsuppgifter klistrad på insidan.",
+    "unsolvedImage": "/images/reactor-room-unsolved.jpg",
+    "solvedImage": "/images/reactor-room-solved.jpg",
+    "hint": "Den låsta luckan behöver rätt nyckel. Du borde ha hittat en i arkiven.",
+    "itemToSolve": "maintenance-key",
+    "itemToAdd": "admin-credentials"
+  },
+  {
+    "id": "vault",
+    "roomName": "Vault",
+    "roomPath": "vault",
+    "unsolvedInstruction": "En massiv valvdörr med en digital admin-inloggningsterminal. Ingen går förbi utan rätt behörighet.",
+    "solvedInstruction": "Valvet är öppet! Inuti, på ett kyldat fack, ligger den master override-nyckel som kontrollerar hela anläggningen.",
+    "unsolvedImage": "/images/vault-unsolved.jpg",
+    "solvedImage": "/images/vault-solved.jpg",
+    "hint": "Terminalen kräver admin-inloggning. Kolla om du har hittat några uppgifter någonstans.",
+    "itemToSolve": "admin-credentials",
+    "itemToAdd": "master-override-key"
+  },
+  {
+    "id": "exit-node",
+    "roomName": "Exit Node",
+    "roomPath": "exit-node",
+    "unsolvedInstruction": "Den sista terminalen. Project NEXUS röda nödlampor blinkar. En nyckelslits väntar på master override-nyckeln – det enda som kan häva nedlåsningen.",
+    "solvedInstruction": "SYSTEM UNLOCKED. Dörren glider upp. Friheten är bara ett steg bort.",
+    "unsolvedImage": "/images/exit-node-unsolved.jpg",
+    "solvedImage": "/images/exit-node-solved.jpg",
+    "hint": "Sätt in override-nyckeln i terminalen för att häva nedlåsningen och öppna utgången.",
+    "itemToSolve": "master-override-key",
+    "itemToAdd": null
+  }
+]

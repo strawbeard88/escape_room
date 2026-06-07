@@ -1,0 +1,38 @@
+[
+  {
+    "id": "uv-light",
+    "name": "UV Light",
+    "description": "En handhållen ultraviolett lampa. Avslöjar dolt bläck och osynliga märkningar.",
+    "image": "/images/item-uv-light.jpg"
+  },
+  {
+    "id": "access-code",
+    "name": "Access Code",
+    "description": "En numerisk kod du fotograferade från serverchassit. Verkar vara 6 siffror.",
+    "image": "/images/item-access-code.jpg"
+  },
+  {
+    "id": "security-keycard",
+    "name": "Security Keycard",
+    "description": "Ett magnetkort från vaktkonsolen. Ger åtkomst till begränsade sektioner.",
+    "image": "/images/item-security-keycard.jpg"
+  },
+  {
+    "id": "maintenance-key",
+    "name": "Maintenance Key",
+    "description": "En sliten metallnyckel från det hemligstämplade arkivet. Märkt NEXUS-MAINT.",
+    "image": "/images/item-maintenance-key.jpg"
+  },
+  {
+    "id": "admin-credentials",
+    "name": "Admin Credentials",
+    "description": "En lapp med admin-inloggning klistrad på insidan av underhållsluckan. Hastigt skriven.",
+    "image": "/images/item-admin-credentials.jpg"
+  },
+  {
+    "id": "master-override-key",
+    "name": "Master Override Key",
+    "description": "Den sista nyckeln. Kontrollerar hela Project NEXUS nödlåsningssystem.",
+    "image": "/images/item-master-override-key.jpg"
+  }
+]
