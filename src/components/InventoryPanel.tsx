@@ -5,7 +5,7 @@ export default function InventoryPanel() {
 
   return (
     <div className="inventory-panel">
-      <h3>Inventorium</h3>
+      <h3>Inventory</h3>
       {inventory.length === 0 ? (
         <p className="empty-inventory">Inga föremål.</p>
       ) : (

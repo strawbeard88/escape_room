@@ -61,7 +61,7 @@ Vault         →(Admin Creds)→    Master Override Key
 Exit Node     →(Override Key)→   FRIHET
 ```
 
-Startinventorium: **UV Light**
+Start inventory: **UV Light**
 
 ---
 
@@ -77,7 +77,7 @@ src/
 │   └── GameContext.tsx         – Inventorie-state, addItem, useGame-hook
 ├── components/
 │   ├── Navbar.tsx              – Sidomnavigering med rumslänkar
-│   ├── InventoryPanel.tsx      – Visar aktuellt inventorium
+│   ├── InventoryPanel.tsx      – Visar aktuellt inventory
 │   └── HintButton.tsx          – Ledtråd via ?hint=true i URL
 ├── pages/
 │   ├── HomePage.tsx            – Introduktion och rumslista
